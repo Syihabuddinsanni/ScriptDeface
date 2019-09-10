@@ -1,0 +1,38 @@
+<script>
+alert("You Lose Zuahahaha !!!")
+</script>
+</script>
+<embed src="http://www.youtube.com/v/llxt1iLUK6c&autoplay=1" type="application/x-shockwave-flash"wmode="transparent" width="1" height="1"></embed>
+<html><head>
+<title>HACKED BY KONSLET</title> 
+<meta name="robots" content="index, follow"> 
+
+</body>
+<style>
+body {
+  background: url(http://eskipaper.com/images/dark-anime-backgrounds-2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+.twitter a{
+  text-decoration: none;
+  font-family: Arial, sans-serif  ;
+  font-size: 50px;
+  text-shadow: grey 0px 0px 10px;
+}
+ 
+ 
+}</style>
+</head>
+<body><center>
+<table width=100% height=100%><td align=center><br>
+<DIV class=twitter><A href="https://www.facebook.com/susuKNTLmanisz"><FONT color="red"><b>HACKED BY KONSLET</a></DIV>
+<div id=bar style="position: fixed; width: 100%; bottom: 0px; font-family: Tahoma; height: 20px; color: white; font-size: 13px; left: 0px; border-top: 2px solid darkred; padding: 30px; background-color: #000"><B>Indonesian Hacker Rulez* <FONT color="red"><b>presidentkuvukilland@gmail.com</a></DIV><br></B></div>
+<FONT color="white"><b><marquee>Greatz To : PakHaxor ~ LastC0de ~ Ice-Cream ~ The Jackerz ~ Gunz_Berry ~ SainsKomputer ~ Sanjungan Jiwa ~ Bc0de ~ BTM & All Indonesian People</marquee></font></font><br></B></div>
+ 
+</body>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<title>Hacked by PhantomGhost</title>
+
+<script type="text/javascript">
+
+var snowmax=35
+var snowcolor=new Array("#AAAACC","#DDDDFF","#CCCCDD","#F3F3F3","#F0FFFF")
+var snowtype=new Array("Arial Black","Arial Narrow","Times","Comic Sans MS")
+var snowletter="*"
+var sinkspeed=0.6
+var snowmaxsize=22
+var snowminsize=8
+var snowingzone=1
+
+// Do not edit below this line
+var snow=new Array()
+var marginbottom
+var marginright
+var timer
+var i_snow=0
+var x_mv=new Array();
+var crds=new Array();
+var lftrght=new Array();
+var browserinfos=navigator.userAgent 
+var ie5=document.all&&document.getElementById&&!browserinfos.match(/Opera/)
+var ns6=document.getElementById&&!document.all
+var opera=browserinfos.match(/Opera/)  
+var browserok=ie5||ns6||opera
+
+function randommaker(range) {		
+	rand=Math.floor(range*Math.random())
+    return rand
+}
+
+function initsnow() {
+	if (ie5 || opera) {
+		marginbottom = document.body.clientHeight
+		marginright = document.body.clientWidth
+	}
+	else if (ns6) {
+		marginbottom = window.innerHeight
+		marginright = window.innerWidth
+	}
+	var snowsizerange=snowmaxsize-snowminsize
+	for (i=0;i<=snowmax;i++) {
+		crds[i] = 0;                      
+    	lftrght[i] = Math.random()*15;         
+    	x_mv[i] = 0.03 + Math.random()/10;
+		snow[i]=document.getElementById("s"+i)
+		snow[i].style.fontFamily=snowtype[randommaker(snowtype.length)]
+		snow[i].size=randommaker(snowsizerange)+snowminsize
+		snow[i].style.fontSize=snow[i].size
+		snow[i].style.color=snowcolor[randommaker(snowcolor.length)]
+		snow[i].sink=sinkspeed*snow[i].size/5
+		if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
+		if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
+		if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
+		if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
+		snow[i].posy=randommaker(2*marginbottom-marginbottom-2*snow[i].size)
+		snow[i].style.left=snow[i].posx
+		snow[i].style.top=snow[i].posy
+	}
+	movesnow()
+}
+
+function movesnow() {
+	for (i=0;i<=snowmax;i++) {
+		crds[i] += x_mv[i];
+		snow[i].posy+=snow[i].sink
+		snow[i].style.left=snow[i].posx+lftrght[i]*Math.sin(crds[i]);
+		snow[i].style.top=snow[i].posy
+		
+		if (snow[i].posy>=marginbottom-2*snow[i].size || parseInt(snow[i].style.left)>(marginright-3*lftrght[i])){
+			if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
+			if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
+			if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
+			if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
+			snow[i].posy=0
+		}
+	}
+	var timer=setTimeout("movesnow()",50)
+}
+
+for (i=0;i<=snowmax;i++) {
+	document.write("<span id='s"+i+"' style='position:absolute;top:-"+snowmaxsize+"'>"+snowletter+"</span>")
+}
+if (browserok) {
+	window.onload=initsnow
+}
+</script>
+
+
+<haniawan96@gmail.com, indonesia>
+
+<html>
+<br>
+<body bgcolor="#000000" text="white" link="pink" vlink="pink">
+<center>
+<blink><U><font face="impact" color="White" size ="8"></blink></blink> [ HACKED BY PAYBACK SQUAD ] </font></U><p>
+<blink><font face="impact" color="White" size ="4"></blink></blink> AnonSec Hackers, PhantomGhost, UICF, Codersleet, BloodSecurity Hackers</font><p>
+<center>
+<iframe frameborder="400" height="400" width="50%" src="https://www.youtube.com/embed/AF-WWLeUkuE?autoplay=1&controls=0&loop=1&rel=0&showinfo=0&autohide=1&wmode=transparent&hd=1"></iframe> 
+<img src="http://orig15.deviantart.net/e2a9/f/2016/284/b/a/oppayback_by_4prili666h05t-dakmlok.png" title="PhantomGhost" />
+<a href="https://www.facebook.com/ghost.phtml">
+<img src="http://orig15.deviantart.net/3286/f/2016/284/c/6/c6d978e2fdd43c77f3a6a2dfc5b67ccc-dakmqgn.png" width="300" height="300" title="PhanTomGhost Was Here"></a>
+<br>
+<p> <font face="courier new"><font size="5" color=yellow>
+
+<font color="white" size=4>
+//---------------------------PHANTOMGHOST---------------------------//<p>
+Remember, remember! The fifth of November, The Gunpowder treason and plot; I know of no reason Why the Gunpowder treason Should ever be forgot! Guy Fawkes and his companions Did the scheme contrive, To blow the King and Parliament All up alive. Threescore barrels, laid below, To prove old England's overthrow. But, by God's providence, him they catch, With a dark lantern, lighting a match! A stick and a stake For King James's sake! If you won't give me one, I'll take two, The better for me, And the worse for you. A rope, a rope, to hang the Pope, A penn'orth of cheese to choke him, A pint of beer to wash it down, And a jolly good fire to burn him. Holloa, boys! holloa, boys! make the bells ring! Holloa, boys! holloa boys! God save the King! Hip, hip, hooor-r-r-ray!
+<p>
+//---------------------------PHANTOMGHOST---------------------------//
+</font>
+<br>
+<br>
+<font color="red">Hackeado por 0x1958</font><br>
+<font color="yellow" size=4>contact me <font color="green" size=4>: aprilighost@defensivecomputing.us</font></font><br>
+<br>
+<font color=pink size=4><br>
+We Are : AnonSec666 - 3r3b0s - ap3x h4x0r - 4prili666h05T - Mr.3RR0R - ./Mr.greetz69 - KidSZonk - D4RKNE55 - Mr.Buckethead - Alfarizi_404 - CCOCOT - 0x1958 - Mr.Aljabar - Alternation - Exect1337 - AL-VRI - MR.WWW - BabyGhost - gekikara404 - ML7C - Luciffer - NewbieXHacker
+</font></font>
+<br>
+<font color=grey size=4><br>
+Thanks To : Zeeshan haxor - Harith101 - XnonGermx - S1R110R - ./UserKiller - luciffer - Mr_Baloch404 - x3r0x v1p3r - SILIWANGI - World Potent Devil - Cl0wnh4xxor - Shettimax
+
+</font>
+
+
+</p></center><!-- --> <script type='text/javascript' src='//go.pub2srv.com/apu.php?zoneid=16780'> </script> <script type="text/javascript" src="//1phads.com/notice.php?p=16781&interactive=1&pushup=1"> </script>
